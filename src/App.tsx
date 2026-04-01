@@ -237,7 +237,6 @@ function TimeBox({
         backdrop-blur-xl
         border border-white/10
         shadow-2xl
-        text-white
         ${highlight ? "bg-gradient-to-br from-purple-600 to-pink-600" : "bg-white/5"}
       `}
     >
@@ -251,7 +250,7 @@ function TimeBox({
               : "text-3xl sm:text-4xl md:text-5xl"}
   `}
         >
-          <NumberTicker value={value} />
+          <NumberTicker  value={value} />
         </div>
         <div className="text-xs mt-2 tracking-widest opacity-70 text-white">{label}</div>
       </div>
