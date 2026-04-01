@@ -148,9 +148,9 @@ const handleClick = () => {
   const isFinal = time.days <= 90;
 
   const mensagem = useMemo(() => {
-    if (time.days <= 0) return "ACABOU 🎉";
-    if (isFinal) return "🔥 CONTAGEM FINAL 🔥";
-    return "⏳ CONTAGEM REGRESSIVA";
+    if (time.days <= 0) return "ACABOOOOOOU, NÃO AGUENTAVA MAIS 🎉";
+    if (isFinal) return "🔥 TÁ ACABANDO HEIN 🔥";
+    return "⏳ CONTAGEM PARA O FIM DO MUNDO";
   }, [time.days]);
 
   return (
@@ -177,7 +177,7 @@ const handleClick = () => {
       
         <FlipCard
           front=""
-          back="🔥 Para o Fim do Mandato 🔥"
+          back="🔥 Digo: Mandato 🔥"
         />
       </div>
 
